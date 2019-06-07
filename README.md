@@ -13,7 +13,7 @@ Funktsionaalsus
   * pildid kuvatakse galeriina, pildid klõpsates saab seda suurena vaadata.
   * töötab võrguta olekus;
 
-  
+  ![screenshot](screen.jpg)
 
 
 
