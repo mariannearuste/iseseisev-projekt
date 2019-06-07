@@ -46,10 +46,11 @@
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en" manifest="offline.manifest">
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="newuser.css">
+	<link rel="manifest" href="manifest.webmanifest">
 	<title>registreeri</title>
 </head>
 <body>

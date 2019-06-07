@@ -20,14 +20,14 @@ $allFiles = array_slice(scandir($dirToRead), 2);
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="offline.manifest">
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="main.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="manifest" href="manifest.webmanifest">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="sidebar.js"></script>
     <script src="main.js"></script>
     <script type="text/javascript">
@@ -62,12 +62,13 @@ $allFiles = array_slice(scandir($dirToRead), 2);
       </ul>
       <?php
       for ($i = 0; $i < count($allFiles); $i ++){
-        echo '<img src="' .$dirToRead .$allFiles[$i] .'" style="float: left; margin: 34px 15px 15px 34px;  border: 3px solid white; display: flex; height: 100%; justify-content: | center;">';
+        echo '<img src="' .$dirToRead .$allFiles[$i] .'" style="float: left; margin: 34px 15px 15px 34px;  border: 3px solid white; display: flex; height: 70%; justify-content: | center;">';
       }
     ?>
   </div>
 </div>
 </body>
-</html>
+<footer><p>Marianne Aruste. <a href="https://github.com/mariannearuste/iseseisev-projekt" target="_blank">Repositoorium</a></p><input type="submit" id="addButton" class="mathBtn" value="Lisa seadmesse!"></footer>
 
+</html>
 

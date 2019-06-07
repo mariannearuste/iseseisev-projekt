@@ -1,3 +1,22 @@
+
+Woofgram
+
+Autor : Marianne Aruste
+
+Funktsionaalsus
+
+  * töötab võrguta olekus;
+  * responsive disain;
+  * saab kasutada "add to Home screen" funktsionaalsust.
+  * saab luua kasutaja (salvestatakse andmebaasi)
+  * sisse loginud kasutaja saab laadida üles pilte ja neid pealehelt kustutada
+  * pildid kuvatakse galeriina, pildid klõpsates saab seda suurena vaadata.
+  * töötab võrguta olekus;
+
+  
+
+
+
 # iseseisev-projekt
 Eesrakenduste arendamise iseseisva projekti lähteülesanne. 
 
